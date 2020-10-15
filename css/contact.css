@@ -1,0 +1,152 @@
+/* resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .wrapper {
+    min-height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* flex for nav on a container */
+  nav {
+    display: flex;
+    
+    background-color: orange;
+  }
+  
+  /* make nav menu aligned to the right side of the naivation bar */
+  nav ul {
+    margin-left: auto;
+  }
+  
+  /* reset */
+  body {
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    letter-spacing: 0.2em;
+    text-align: center;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  nav ul { 
+    display:flex;
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  nav ul li {
+    text-align: center;
+  }
+  
+  nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+     
+    display: block;
+    padding: 0.5em 1em;
+  }
+  
+  nav {
+    margin-bottom: 2rem;
+  }
+  
+  /* LOGO */
+  nav .logo {
+    width: 50px;
+    max-height: 50px;
+  }
+  
+  /* hover and active of the nav menu */
+  nav ul a:hover {
+    color: grey;    
+  }
+  
+  nav ul a:active {
+    color: rgb(0, 132, 255);
+  }
+  
+ 
+/* card style*/
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 1em auto;
+    min-width: 30ch;
+    max-width: 40ch;
+
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 1em;
+    
+    display: flex;
+    flex-direction: column;
+
+    background-color: orange;
+  }
+  
+  img {
+    width: 100%;
+    padding-bottom: 1em;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 3em;
+  }
+
+
+  form button {
+    font-size: 16px;
+    
+    background-color: orange;
+    color: black;
+    width: 100px;
+    height: 40px;
+    margin-top: 3rem;
+    margin-bottom: 2rem; 
+    border-radius: 2rem;
+  }
+  
+  .formfooter button:hover {
+    color: grey;
+  }
+  
+  .formfooter button:active { 
+    color: rgb(0, 132, 255);
+  }
+
+
+  /* sticky footer */
+  footer {
+    background: orange;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Media Queries*/
+  @media screen and (max-width: 600px){
+    main * {
+      width: 100%;
+    }
+  }
