@@ -6,7 +6,9 @@ by  Lynn Chen     Oct,15,2020
 
 ## Comments
 
-This project is about the website of a woodwork handmade workshop. The photos come from Taobao website products. The pictures in contact cards are painted by myself.
+This project is about the website of a woodwork handmade workshop named "woodbox". 
+
+The product photos come from Taobao website https://creatwood.taobao.com/. The pictures in contact cards are painted by myself. All these photos and pictures are only uesd in this project for learning not for any business goal.
 
 There are some issues in my navigation bar. I can not make the hamburger menu which can help my page remain unbroken on mobile. I think I will fix it later when I know more about JS. Besides that, it is hard for me to do the company name and Logo together in only one link,so I design a logo which includes the company name.
 
